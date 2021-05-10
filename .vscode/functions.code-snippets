@@ -1,0 +1,7 @@
+{
+    "function": {
+        "description": "functionコマンド",
+        "prefix": "function",
+        "body": "function ${1:auto-excavator}:$0"
+    }
+}
