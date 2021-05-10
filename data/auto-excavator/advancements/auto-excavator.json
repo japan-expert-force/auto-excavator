@@ -17,6 +17,6 @@
         }
     },
     "rewards": {
-        "function": "auto-excavator:craft"
+        "function": "auto-excavator:craft/auto-excavator"
     }
 }

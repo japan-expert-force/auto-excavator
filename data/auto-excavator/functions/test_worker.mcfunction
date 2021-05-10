@@ -1,0 +1,9 @@
+execute as @e[tag=worker] at @s unless block ~-1 ~-1 ~-1 minecraft:bedrock run setblock ~-1 ~-1 ~-1 air destroy
+execute as @e[tag=worker] at @s unless block ~ ~-1 ~-1 minecraft:bedrock run setblock ~ ~-1 ~-1 air destroy
+execute as @e[tag=worker] at @s unless block ~1 ~-1 ~-1 minecraft:bedrock run setblock ~1 ~-1 ~-1 air destroy
+execute as @e[tag=worker] at @s unless block ~-1 ~-1 ~ minecraft:bedrock run setblock ~-1 ~-1 ~ air destroy
+execute as @e[tag=worker] at @s unless block ~ ~-1 ~ minecraft:bedrock run setblock ~ ~-1 ~ air destroy
+execute as @e[tag=worker] at @s unless block ~1 ~-1 ~ minecraft:bedrock run setblock ~1 ~-1 ~ air destroy
+execute as @e[tag=worker] at @s unless block ~-1 ~-1 ~1 minecraft:bedrock run setblock ~-1 ~-1 ~1 air destroy
+execute as @e[tag=worker] at @s unless block ~ ~-1 ~1 minecraft:bedrock run setblock ~ ~-1 ~1 air destroy
+execute as @e[tag=worker] at @s unless block ~1 ~-1 ~1 minecraft:bedrock run setblock ~1 ~-1 ~1 air destroy
