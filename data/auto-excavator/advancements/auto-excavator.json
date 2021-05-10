@@ -1,0 +1,22 @@
+{
+    "display": {
+        "title": "自動採掘機",
+        "description": "自動採掘機をクラフトする",
+        "icon": {
+            "item": "minecraft:command_block"
+        },
+        "frame": "task",
+        "background": "minecraft:textures/block/iron_block.png"
+    },
+    "criteria": {
+        "placeholder": {
+            "trigger": "minecraft:recipe_unlocked",
+            "conditions": {
+                "recipe": "auto-excavator:auto-excavator"
+            }
+        }
+    },
+    "rewards": {
+        "function": "auto-excavator:craft"
+    }
+}
