@@ -3,5 +3,10 @@
         "description": "functionコマンド",
         "prefix": "function",
         "body": "function ${1:auto-excavator}:$0"
+    },
+    "region": {
+        "description": "region comment out",
+        "prefix": "region",
+        "body": "#region\n$0\n#endregion"
     }
 }

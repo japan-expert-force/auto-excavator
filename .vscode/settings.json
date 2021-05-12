@@ -1,0 +1,19 @@
+{
+    "datapack.env.cmdVersion": "1.17",
+    "datapack.env.dataVersion": "21w18a",
+    "datapack.env.jsonVersion": "1.17",
+    "datapack.env.language": "ja",
+    "datapack.lint.blockStateBracketSpacing": {
+        "oneValue": 1,
+        "inside": 1,
+        "zeroValue": 1,
+    },
+    "datapack.lint.blockStateCommaSpacing": {
+        "before": 0,
+        "after": 1,
+    },
+    "datapack.lint.blockStateEqualSpacing": {
+        "before": 1,
+        "after": 1,
+    },
+}
