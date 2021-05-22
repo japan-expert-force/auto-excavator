@@ -9,6 +9,10 @@ scoreboard objectives add 7 dummy
 scoreboard objectives add 8 dummy
 scoreboard objectives add 9 dummy
 scoreboard objectives add 10 dummy
+scoreboard objectives add ae-posx dummy
+scoreboard objectives add ae-posy dummy
+scoreboard objectives add ae-posz dummy
+
 scoreboard players set auto-excavator-var 1 1
 scoreboard players set auto-excavator-var 2 2
 scoreboard players set auto-excavator-var 3 3

@@ -7,6 +7,11 @@
     "region": {
         "description": "region comment out",
         "prefix": "region",
-        "body": "#region\n$0\n#endregion"
+        "body": "#region $1\n$0\n#endregion"
+    },
+    "auto-excavator": {
+        "description": "auto-excavator",
+        "prefix": "auto-excavator",
+        "body": "auto-excavator"
     }
 }
