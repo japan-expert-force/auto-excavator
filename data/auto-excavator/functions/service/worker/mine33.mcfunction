@@ -1,5 +1,5 @@
 # @author sharo-jef
-# description 33x33で掘る
+# @description 33x33で掘る
 
 #region 33x33で掘る
 execute positioned ~-16 ~-1 ~-16 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine
