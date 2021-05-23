@@ -1,5 +1,4 @@
 # @author rmr
-# @description world load 
 # @description 計算用のスコア作成
 scoreboard objectives add posx dummy
 scoreboard objectives add posy dummy
@@ -30,5 +29,5 @@ scoreboard objectives add range dummy
 scoreboard players set range range 1
 scoreboard objectives add range2 dummy
 scoreboard players set range2 range2 1
-# @description loaded!
+# loaded!
 tellraw @a ["excavator is loaded!"] 
