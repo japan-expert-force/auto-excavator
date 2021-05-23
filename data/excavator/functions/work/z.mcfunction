@@ -1,4 +1,4 @@
-#
+#z軸の動き
 execute as @e[tag=miner] store result entity @s Pos[1] double 1 run scoreboard players get @e[tag=core,limit=1,sort=nearest] corey
 execute as @e[tag=miner] store result score @s posz run data get entity @s Pos[2]
 execute as @e[tag=miner] store result score @s posy run data get entity @s Pos[1]
