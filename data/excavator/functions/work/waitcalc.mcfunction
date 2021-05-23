@@ -1,4 +1,5 @@
-#計算
+# @author rmr
+# @description S計算
 execute as @e[tag=miner] at @s run scoreboard players operation @s corez = @e[tag=core,limit=1,sort=nearest] corez
 execute as @e[tag=miner] at @s run scoreboard players operation @s corez+range = @s corez
 execute as @e[tag=miner] at @s run scoreboard players operation @s corez-range = @s corez

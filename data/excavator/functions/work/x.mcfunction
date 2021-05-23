@@ -1,4 +1,5 @@
-#x軸の動き
+# @author rmr
+# @description x軸の動き
 execute as @e[tag=miner] store result score @s posx run data get entity @s Pos[0]
 execute as @e[tag=miner] store result score @s posz run data get entity @s Pos[2]
 execute as @e[tag=miner] run scoreboard players operation @s posx -= 1 1
