@@ -1,9 +1,0 @@
-execute as @e[tag=worker] at @s positioned ~-1 ~-1 ~-1 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine
-execute as @e[tag=worker] at @s positioned ~-1 ~-1 ~0 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine
-execute as @e[tag=worker] at @s positioned ~-1 ~-1 ~1 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine
-execute as @e[tag=worker] at @s positioned ~0 ~-1 ~-1 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine
-execute as @e[tag=worker] at @s positioned ~0 ~-1 ~0 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine 
-execute as @e[tag=worker] at @s positioned ~0 ~-1 ~1 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine 
-execute as @e[tag=worker] at @s positioned ~1 ~-1 ~-1 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine
-execute as @e[tag=worker] at @s positioned ~1 ~-1 ~0 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine 
-execute as @e[tag=worker] at @s positioned ~1 ~-1 ~1 unless block ~ ~ ~ minecraft:bedrock run function auto-excavator:service/mine/mine 
