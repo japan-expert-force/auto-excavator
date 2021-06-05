@@ -1,3 +1,6 @@
+# @author sharo-jef
+# @description destroy
+
 execute as @s[tag=fortune] run summon item ~ ~ ~ {Item:{id:"music_disc_13",Count:1b,tag:{display:{Name:'{"text":"アップグレード: 幸運"}',Lore:['[{"text":"自動採掘機用アップグレードアイテム"}]']}}}}
 execute as @s[tag=silktouch] run summon item ~ ~ ~ {Item:{id:"music_disc_13",Count:1b,tag:{display:{Name:'{"text":"アップグレード: シルクタッチ"}',Lore:['[{"text":"自動採掘機用アップグレードアイテム"}]']}}}}
 execute as @s[scores={range=1}] run summon item ~ ~ ~ {Item:{id:"armor_stand",Count:1b,tag:{EntityTag:{Tags:["auto-excavator","marker","range1"]},display:{Name:'{"text":"基本自動採掘機"}'}}}}

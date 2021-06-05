@@ -1,3 +1,6 @@
+# @author sharo-jef
+# @description 初期化処理
+
 execute store result score @s id run data get entity @s UUID[0] 1.0
 execute store result score @s pair run data get entity @e[tag=auto-excavator,tag=core,tag=init,sort=nearest,limit=1] UUID[0] 1.0
 execute store result score @s range run scoreboard players get @e[tag=auto-excavator,tag=core,tag=init,sort=nearest,limit=1] range

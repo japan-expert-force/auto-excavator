@@ -1,3 +1,5 @@
+# @author sharo-jef
+# @description datapack初期化処理
 scoreboard objectives add int dummy
 scoreboard objectives add ae-posx dummy
 scoreboard objectives add ae-posx-max dummy
