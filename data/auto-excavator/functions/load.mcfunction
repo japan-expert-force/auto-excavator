@@ -1,6 +1,3 @@
-# debug
-function auto-excavator:uninstall
-
 scoreboard objectives add int dummy
 scoreboard objectives add ae-posx dummy
 scoreboard objectives add ae-posx-max dummy

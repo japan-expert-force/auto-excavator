@@ -15,8 +15,10 @@ execute as @e[tag=auto-excavator,tag=worker,tag=mining] store result entity @s P
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] store result entity @s Pos[2] double 1.0 run scoreboard players get @s ae-posz
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s run tp ~.5 ~.5 ~.5
 
-execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s run function auto-excavator:service/mine/mine
-# execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s as @e[type=item,distance=..1] run tp @s @e[]
+execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s as @e[tag=auto-excavator,tag=core,tag=mining] if score @s id = @e[tag=auto-excavator,tag=worker,tag=mining,distance=0,limit=1] pair as @s[tag=!fortune,tag=!silktouch] run function auto-excavator:service/mine/mine
+execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s as @e[tag=auto-excavator,tag=core,tag=mining] if score @s id = @e[tag=auto-excavator,tag=worker,tag=mining,distance=0,limit=1] pair as @s[tag=fortune] run function auto-excavator:service/mine/mine_fortune
+execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s as @e[tag=auto-excavator,tag=core,tag=mining] if score @s id = @e[tag=auto-excavator,tag=worker,tag=mining,distance=0,limit=1] pair as @s[tag=silktouch] run function auto-excavator:service/mine/mine_silktouch
+
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s as @e[tag=auto-excavator,tag=core,tag=mining] if score @s id = @e[tag=auto-excavator,tag=worker,tag=mining,distance=0,limit=1] pair run tp @e[type=item,distance=..1] @s
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] at @s as @e[tag=auto-excavator,tag=core,tag=mining] if score @s id = @e[tag=auto-excavator,tag=worker,tag=mining,distance=0,limit=1] pair run tp @e[type=experience_orb,distance=..1] @s
 
