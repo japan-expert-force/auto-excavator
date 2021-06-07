@@ -2,10 +2,10 @@
 # @description 配置
 
 #region place hopper
-execute as @p if entity @s[y_rotation=-45..45] run setblock ~ ~ ~ hopper[facing=south] destroy
-execute as @p if entity @s[y_rotation=45..135] run setblock ~ ~ ~ hopper[facing=west] destroy
-execute as @p if entity @s[y_rotation=135..225] run setblock ~ ~ ~ hopper[facing=north] destroy
-execute as @p if entity @s[y_rotation=225..315] run setblock ~ ~ ~ hopper[facing=east] destroy
+execute as @p if entity @s[y_rotation=-45..45] run setblock ~ ~ ~ hopper[facing=west] destroy
+execute as @p if entity @s[y_rotation=45..135] run setblock ~ ~ ~ hopper[facing=north] destroy
+execute as @p if entity @s[y_rotation=135..225] run setblock ~ ~ ~ hopper[facing=east] destroy
+execute as @p if entity @s[y_rotation=225..315] run setblock ~ ~ ~ hopper[facing=south] destroy
 execute as @s[tag=range1] run data modify block ~ ~ ~ CustomName set value "{\"text\":\"基本自動採掘機\"}"
 execute as @s[tag=range8] run data modify block ~ ~ ~ CustomName set value "{\"text\":\"発展自動採掘機\"}"
 execute as @s[tag=range16] run data modify block ~ ~ ~ CustomName set value "{\"text\":\"精鋭自動採掘機\"}"
