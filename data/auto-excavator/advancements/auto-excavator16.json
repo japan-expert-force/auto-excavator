@@ -1,7 +1,7 @@
 {
     "display": {
-        "title": "基本自動採掘機",
-        "description": "基本自動採掘機 をクラフトする",
+        "title": "精鋭自動採掘機",
+        "description": "精鋭自動採掘機 をクラフトする",
         "icon": {
             "item": "minecraft:command_block"
         },
@@ -12,11 +12,11 @@
         "placeholder": {
             "trigger": "minecraft:recipe_unlocked",
             "conditions": {
-                "recipe": "auto-excavator:auto-excavator"
+                "recipe": "auto-excavator:auto-excavator16"
             }
         }
     },
     "rewards": {
-        "function": "auto-excavator:craft/auto-excavator"
+        "function": "auto-excavator:craft/auto-excavator16"
     }
 }

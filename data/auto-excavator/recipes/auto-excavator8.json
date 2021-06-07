@@ -2,15 +2,18 @@
     "type": "minecraft:crafting_shaped",
     "group": "auto-excavator",
     "pattern": [
-        "AAA",
-        "ABA",
-        "AAA"
+        "BAB",
+        "ACA",
+        "BAB"
     ],
     "key": {
         "A": {
             "item": "minecraft:iron_block"
         },
         "B": {
+            "item": "minecraft:redstone_block"
+        },
+        "C": {
             "item": "minecraft:redstone"
         }
     },
