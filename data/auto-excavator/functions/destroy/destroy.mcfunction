@@ -10,4 +10,11 @@ execute as @s[scores={range=32}] run summon item ~ ~ ~ {Item:{id:"armor_stand",C
 
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s id = @e[tag=auto-excavator,tag=core,tag=mining,distance=0,limit=1] pair at @s run tp ~ -5 ~
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s id = @e[tag=auto-excavator,tag=core,tag=mining,distance=0,limit=1] pair run kill @s
+
+#remove display exavator grade
+execute as @e[tag=display-ae-grade,sort=nearest,limit=1] run kill @s
+
+#remove display range
+execute as @e[tag=display-range,sort=nearest,limit=1] run kill @s
+
 kill @s
