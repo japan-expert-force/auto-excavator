@@ -4,9 +4,9 @@
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posz > @s ae-posz-max run tag @s add done
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posz > @s ae-posz-max run tag @s remove mining
 
-execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posy <= 0 int if score @s ae-posx >= @s ae-posx-max run function auto-excavator:service/worker/go_next
-execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posy <= 0 int run scoreboard players add @s ae-posx 1
-execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posy <= 0 int store result score @s ae-posy run scoreboard players get @s ae-posy-max
+execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posy <= -58 int if score @s ae-posx >= @s ae-posx-max run function auto-excavator:service/worker/go_next
+execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posy <= -58 int run scoreboard players add @s ae-posx 1
+execute as @e[tag=auto-excavator,tag=worker,tag=mining] if score @s ae-posy <= -58 int store result score @s ae-posy run scoreboard players get @s ae-posy-max
 
 execute as @e[tag=auto-excavator,tag=worker,tag=mining] run scoreboard players remove @s ae-posy 1
 

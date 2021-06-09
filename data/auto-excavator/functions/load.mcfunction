@@ -11,6 +11,7 @@ scoreboard objectives add id dummy
 scoreboard objectives add pair dummy
 scoreboard objectives add range dummy
 
+scoreboard players set -58 int -58
 scoreboard players set 0 int 0
 scoreboard players set 1 int 1
 
