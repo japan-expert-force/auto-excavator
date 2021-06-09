@@ -19,16 +19,16 @@ execute if entity @s[tag=range8] run scoreboard players set @e[tag=auto-excavato
 execute if entity @s[tag=range16] run scoreboard players set @e[tag=auto-excavator,tag=core,tag=init, sort=nearest,limit=1] range 16
 execute if entity @s[tag=range32] run scoreboard players set @e[tag=auto-excavator,tag=core,tag=init, sort=nearest,limit=1] range 32
 
-#display excavator grade
-execute if entity @s[tag=range1] run summon armor_stand ~ ~-0.1 ~ {Tags:["display-ae-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§a基本自動採掘機"}'}
-execute if entity @s[tag=range8] run summon armor_stand ~ ~-0.1 ~ {Tags:["display-ae-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§c発展自動採掘機"}'}
-execute if entity @s[tag=range16] run summon armor_stand ~ ~-0.1 ~ {Tags:["display-ae-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§b精鋭自動採掘機"}'}
-execute if entity @s[tag=range32] run summon armor_stand ~ ~-0.1 ~ {Tags:["display-ae-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§d究極自動採掘機"}'}
+# display excavator grade
+execute if entity @s[tag=range1] run summon armor_stand ~ ~-0.1 ~ {Tags:["auto-excavator","display-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§a基本自動採掘機"}'}
+execute if entity @s[tag=range8] run summon armor_stand ~ ~-0.1 ~ {Tags:["auto-excavator","display-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§c発展自動採掘機"}'}
+execute if entity @s[tag=range16] run summon armor_stand ~ ~-0.1 ~ {Tags:["auto-excavator","display-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§b精鋭自動採掘機"}'}
+execute if entity @s[tag=range32] run summon armor_stand ~ ~-0.1 ~ {Tags:["auto-excavator","display-grade"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"§d究極自動採掘機"}'}
 
-#display-range
-execute if entity @s[tag=range1] run summon armor_stand ~ ~-0.4 ~ {Tags:["display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 1 (3x3)"}'}
-execute if entity @s[tag=range8] run summon armor_stand ~ ~-0.4 ~ {Tags:["display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 8 (17x17)"}'}
-execute if entity @s[tag=range16] run summon armor_stand ~ ~-0.4 ~ {Tags:["display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 16 (33x33)"}'}
-execute if entity @s[tag=range32] run summon armor_stand ~ ~-0.4 ~ {Tags:["display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 32 (65x65)"}'}
+# display-range
+execute if entity @s[tag=range1] run summon armor_stand ~ ~-0.4 ~ {Tags:["auto-excavator","display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 1 (3x3)"}'}
+execute if entity @s[tag=range8] run summon armor_stand ~ ~-0.4 ~ {Tags:["auto-excavator","display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 8 (17x17)"}'}
+execute if entity @s[tag=range16] run summon armor_stand ~ ~-0.4 ~ {Tags:["auto-excavator","display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 16 (33x33)"}'}
+execute if entity @s[tag=range32] run summon armor_stand ~ ~-0.4 ~ {Tags:["auto-excavator","display-range"],CustomNameVisible:1b,NoGravity:1b,Invisible:1b,CustomName:'{"text":"Range = 32 (65x65)"}'}
 
 kill @s
