@@ -3,5 +3,25 @@
         "description": "functionコマンド",
         "prefix": "function",
         "body": "function ${1:auto-excavator}:$0"
+    },
+    "region": {
+        "description": "region comment out",
+        "prefix": "region",
+        "body": "#region $1\n$0\n#endregion"
+    },
+    "auto-excavator": {
+        "description": "auto-excavator",
+        "prefix": "auto-excavator",
+        "body": "auto-excavator"
+    },
+    "author": {
+        "description": "author",
+        "prefix": "author",
+        "body": "# @author $0"
+    },
+    "description": {
+        "description": "description",
+        "prefix": "description",
+        "body": "# @description $0"
     }
 }
